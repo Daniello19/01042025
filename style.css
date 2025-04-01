@@ -20,7 +20,7 @@ body {
 
 nav {
     width: 500px;
-    background-color: rgba(27, 27, 27, 0.96);
+    background-color: rgba(27, 27, 27, 0.94);
     margin: 30px;
     position: fixed;
     border: 1px solid rgb(71, 71, 71);
@@ -55,6 +55,24 @@ a {
     text-decoration: none;
 }
 
+#left {
+    width: 33%;
+    height: 100%;
+}
+#right {
+    width: 33%;
+    height: 100%;
+}
+
+#left img {
+    width: 100%;
+    height: 100%;
+}
+#right img {
+    width: 100%;
+    height: 100%;
+}
+
 .Bbox {
     width: 100%;
     margin-top: 80px;
@@ -64,14 +82,19 @@ a {
     justify-content: space-around;
 }
 
-.main {
+.bod {
     width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main {
+    width: 33%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .box {
@@ -95,11 +118,11 @@ a {
 }
 
 #Bbox1 {
-    height: 200px;
+    height: 100px;
 }
 
 #Bbox2 {
-    height: 270px;
+    height: 150px;
 }
 
 #Bbox3 {
